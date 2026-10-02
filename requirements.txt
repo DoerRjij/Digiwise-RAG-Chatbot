@@ -1,0 +1,17 @@
+# Digiwise RAG Chatbot dependencies
+#
+# These entries mirror the packages used by the current notebook.
+# Versions are intentionally not pinned because the exact tested
+# package versions have not been established for this project.
+
+transformers
+sentencepiece
+torch
+bitsandbytes
+accelerate
+huggingface-hub
+sentence-transformers
+langchain-huggingface
+langchain-chroma
+chromadb
+gradio

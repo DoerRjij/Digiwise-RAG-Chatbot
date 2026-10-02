@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime user data
+USERS/
+
+# Local ChromaDB data
+data/chromadb_vectorstore/
+
+# Local caches / downloaded model data
+.cache/
+huggingface/
+transformers_cache/
+sentence_transformers/
+
+# Editors / operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+
+# Local output folders
+outputs/
+results/
